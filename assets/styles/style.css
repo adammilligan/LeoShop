@@ -403,6 +403,9 @@ body { margin: 0 }
     width: 25%;
     padding-right: 20px;
 }
+.information{
+    width: 25%;
+}
 .contact{
     width: 25%;
 }
