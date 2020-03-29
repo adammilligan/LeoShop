@@ -260,28 +260,72 @@ body { margin: 0 }
 }
 .footer-middle{
     background: #39a0b9;
-    height: 340px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .facebook_faces{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
+    border-top: 2px solid #4cb1ca;
+    border-bottom: 2px solid #4cb1ca;
+    padding-top: 10px;
 }
 .facebook{
-    width: 260px;
+    width: 25%;
 }
 .facebook_faces-face{
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.twitter{
-    width: 260px;
+.facebook_about{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
 }
-.infotmation{
-    width: 260px;
+.facebook_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.twitter_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.information_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.contact_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.facebook_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+}
+.twitter{
+    width: 25%;
+}
+.information{
+    width: 25%;
 }
 .contact{
-    width: 260px;
+    width: 25%;
 }
 .facebook_logo{
     margin-bottom: 5px;
