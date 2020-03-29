@@ -1,7 +1,8 @@
 body { margin: 0 }
 
 .header_headline{
-    height:50px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background:#4cb1ca;
     display: flex;
     margin: auto;
@@ -32,7 +33,6 @@ body { margin: 0 }
     font-size: 13px;
 }
 .header_main{
-    height:100px;
     background: #ffffff;
     display: flex;
     margin: auto;
@@ -133,6 +133,36 @@ body { margin: 0 }
 .product-img{
     width: 100%;
 }
+.product-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.product_text-about{
+    text-decoration: none;
+    color: #464148;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.product_text-price{
+    text-decoration: none;
+    color: #7db122;
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.product_text-oldprice{
+    text-decoration: line-through;
+    color: #464148;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .featuder-products{
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +172,7 @@ body { margin: 0 }
     justify-content: space-between;
 }
 .main{
-    height: 2000px;
+    padding-bottom: 50px;
     background: #ffffff;
 }.new-product{
     display: flex;
@@ -205,7 +235,9 @@ body { margin: 0 }
     color: #ffffff;
     font-size: 14px;
     font-family: 'Roboto', serif;
-
+}
+.subscribe-input{
+    height: 2em;
 }
 .sidebar_subscribe{
     border: 2px solid #eeeeee;
@@ -213,41 +245,166 @@ body { margin: 0 }
     padding-bottom: 30px;
 }
 .footer-top{
-    height: 120px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background: #4cb1ca;
     display: flex;
     align-items: center;
 }
 .footer-bottom{
-    height: 60px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background: #0b4b5a;
     display: flex;
     justify-content: space-between;
 }
 .footer-middle{
     background: #39a0b9;
-    height: 340px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .facebook_faces{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
+    border-top: 2px solid #4cb1ca;
+    border-bottom: 2px solid #4cb1ca;
+    padding-top: 10px;
 }
 .facebook{
-    width: 260px;
+    width: 25%;
+    padding-right: 20px;
 }
 .facebook_faces-face{
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.twitter{
-    width: 260px;
+.facebook_about{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
 }
-.infotmation{
-    width: 260px;
+.facebook_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.twitter_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.twitter_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.twitter_aboutblock{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.twitter_abouttext{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.twitter_abouttext-color{
+    color: #9ae2f4;
+}
+.information_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.iformatioin_about{
+    list-style: none;
+    padding: 0px;
+}
+.iformation_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.iformation_text::before{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    width: 5px;
+    height: 5px;
+    color: #ffffff;
+    content: "";
+    display: inline-block;
+    transform: rotate(135deg);
+    margin-right: 20px;
+}
+.contact_title{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.contact_about{
+    list-style: none;
+    padding: 0px;
+    border-bottom: 2px solid #4cb1ca;
+    padding-bottom: 10px;
+}
+.contact_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.contact_text-tel{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.contact_text-mailto{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.contact_links{
+    display: flex;
+    margin-right: 20px;
+}
+.contact_link{
+    margin-right: 20px;
+}
+.facebook_text{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto',serif;
+    font-size: 13px;
+}
+.twitter{
+    width: 25%;
+    padding-right: 20px;
+}
+.information{
+    width: 25%;
+    padding-right: 20px;
 }
 .contact{
-    width: 260px;
+    width: 25%;
 }
 .facebook_logo{
     margin-bottom: 5px;
