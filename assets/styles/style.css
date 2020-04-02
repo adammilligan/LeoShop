@@ -57,16 +57,35 @@ body { margin: 0 }
 }
 .input{
     justify-content: space-between;
-    border: none;
+    border: 1px solid #c6c6c6;
+    width: 175px;
+    height: 30px;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    box-sizing: border-box;
 }
 .search{
-    margin-right: 30px;
+    margin-right: 10px;
     text-decoration: none;
     color: #b7b7b7;
     font-family: 'Roboto', serif;
     font-size: 13px;
-    height: 30px;
+    height: 100%;
     padding-left: 10px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: calc(100% - 25px);
+}
+.input_lens{
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .lable{
     margin-right: 10px;
