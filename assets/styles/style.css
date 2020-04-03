@@ -78,6 +78,9 @@ body { margin: 0 }
     padding-bottom: 0;
     width: calc(100% - 25px);
 }
+.search:focus{
+    outline: none;
+}
 .input_lens{
     border: none;
     background: none;
