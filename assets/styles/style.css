@@ -175,6 +175,48 @@ body { margin: 0 }
     padding: 10px;
     border: 2px solid #eeeeee;
     margin-bottom: 25px;
+    position: relative;
+}
+.ribbon{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}
+.ribbon-new{
+    border-bottom: 25px solid #4cb1ca;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 60px;
+    top: 14px;
+    left: 170px;
+    transform: rotate(45deg);
+}
+.bottom-new{
+    background: #2b9eba;
+    width: 110px;
+    height: 2px;
+    margin-left: -25px;
+}
+.bottom-sale{
+    background: #669318;
+    width: 110px;
+    height: 2px;
+    margin-left: -25px;
+}
+.ribbon-sale{
+    border-bottom: 25px solid #7db122;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 60px;
+    transform: rotate(-45deg);
+    top: 14px;
+    left: -30px;
 }
 .product:nth-child(3n){
     margin-right: 0px;
